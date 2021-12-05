@@ -7,6 +7,6 @@ Install opencv-python using command line
 - Command line: `pip install opencv-python`
 
 Install opencv-python in PyCharm
-- Python mus be installed
+- Python must be installed
 - File -> Settings -> Project(ProjectName) -> python interpreter -> Install ('+')
 - Install `opencv-python`
