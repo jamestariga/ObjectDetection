@@ -6,7 +6,13 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 classNames = []
+
+# Windows version, comment line below if running in raspberry pi
 classFile = 'coco.names'
+
+# Raspberry Pi version, remove '#' on the next line
+# classFile = '/home/pi/Desktop/ObjectDetection/coco.names'
+
 with open(classFile, 'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
 
